@@ -20,6 +20,8 @@ if (isset($_POST['time'])) {
      case $time;
      echo "Hala $time!";
      break;
+
+     
    
    
     default:  
