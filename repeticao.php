@@ -7,8 +7,8 @@
 </head>
 <body>
     <form action="" method="post">
-<label for="">Digite seu time favorito</label>
-<input name="time">
+<label for="">Digite seu numero</label>
+<input name="valor1">
   
 
     </form>
@@ -18,11 +18,8 @@
     $valor1 = $_POST['valor1'];
 
     for($i = 1; $i <= 10; $i++){
-      echo $valor1 . "X" . $i . " = " .$valor * $i;
+      echo $valor1 . "X" . $i . " = " .$valor1 * $i;
       echo "<br>";
-
-
-
 
 
   }

@@ -9,53 +9,87 @@
 
 <form action="" method="post">
 <label for=""></label>
-<input name="mes">
+<input name="valor1">
 
 <?php
-if (isset($_POST ["mes"])){
-$mes = $_POST ["mes"];
-switch ($mes) {
+if($_POST){
+    $valor1 = $_POST['valor1'];
+    switch ($valor1) 
+switch ($valor) {
     case 1:
-        echo "Estamos em janeiro.";
+        echo "vc esta na tabuada 1";
+        for($i = 1; $i <= 10; $i++){
+            echo $valor1 . "X" . $i . " = " .$valor1 * $i;
+            echo "<br>";
+        }
         break;
     case 2:
-        echo "Estamos em fevereiro.";
+        echo "vc esta na tabuada 2.";
+        for($i = 1; $i <= 10; $i++){
+            echo $valor1 . "X" . $i . " = " .$valor1 * $i;
+            echo "<br>";
+        }
         break;
     case 3:
-        echo "Estamos em março.";
-        break;
-    case 4:
-        echo "Estamos em abril.";
+        echo "vc esta na tabuada 3.";
+        for($i = 1; $i <= 10; $i++){
+            echo $valor1 . "X" . $i . " = " .$valor1 * $i;
+            echo "<br>";
+        }
         break;
     case 5:
-        echo "Estamos em maio.";
+        echo "vc esta na tabuada 4.";
+        for($i = 1; $i <= 10; $i++){
+            echo $valor1 . "X" . $i . " = " .$valor1 * $i;
+            echo "<br>";      
+        }
+        break;
+    case 5:
+        echo "vc esta na tabuada 5.";
+        for($i = 1; $i <= 10; $i++){
+            echo $valor1 . "X" . $i . " = " .$valor1 * $i;
+            echo "<br>";
+        }
         break;
     case 6:
-        echo "Estamos em junho.";
+        echo "vc esta na tabuada 6.";
+        for($i = 1; $i <= 10; $i++){
+            echo $valor1 . "X" . $i . " = " .$valor1 * $i;
+            echo "<br>";
+        }
         break;
     case 7:
-        echo "Estamos em julho.";
+        echo "vc esta na tabuada 7.";
+        for($i = 1; $i <= 10; $i++){
+            echo $valor1 . "X" . $i . " = " .$valor1 * $i;
+            echo "<br>";
+        }
         break;
     case 8:
-        echo "Estamos em agosto.";
+        echo "vc esta na tabuada 8.";
+        for($i = 1; $i <= 10; $i++){
+            echo $valor1 . "X" . $i . " = " .$valor1 * $i;
+            echo "<br>";
+        }
         break;
     case 9:
-        echo "Estamos em setembro.";
+        echo "vc esta na tabuada 9.";
+        for($i = 1; $i <= 10; $i++){
+            echo $valor1 . "X" . $i . " = " .$valor1 * $i;
+            echo "<br>";
+        }
         break;
     case 10:
-        echo "Estamos em outubro.";
-        break;
-    case 11:
-        echo "Estamos em novembro.";
-        break;
-    case 12:
-        echo "Estamos em dezembro.";
-        break;
-    default:
-        echo "mes inválido.";
-        break;
+        echo "vc esta na tabuada 10.";
+        for($i = 1; $i <= 10; $i++){
+            echo $valor1 . "X" . $i . " = " .$valor1 * $i;
+            echo "<br>";
         }
+        break;
+
+        default:
     } 
+    }
         ?>
 </body>
 </html>
